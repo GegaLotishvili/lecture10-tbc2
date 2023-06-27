@@ -1,0 +1,26 @@
+@media (max-width: 1000px) {
+    h2 {
+        font-size: 30px;
+    }
+    .bigbox {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 800px) {
+    .bigbox {
+        flex-direction: column;
+        align-items: center;
+    }
+    .smallbox {
+        width: 300px;
+        height: 200px;
+    }
+}
+
+@media (max-width: 500px) {
+    .smallbox {
+        width: 200px;
+        height: 150px;
+    }
+}
